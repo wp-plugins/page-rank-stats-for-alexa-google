@@ -225,8 +225,8 @@ class agpr_ITslum extends WP_Widget {
 } // class agpr_ITslum
 
 // register agpr_ITslum widget
-function register_foo_widget() {
+function register_itsuniq_widget() {
     register_widget( 'agpr_ITslum' );
 }
-add_action( 'widgets_init', 'register_foo_widget' );
+add_action( 'widgets_init', 'register_itsuniq_widget' );
 ?>
