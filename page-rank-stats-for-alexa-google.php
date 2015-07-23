@@ -34,7 +34,7 @@ class agpr_ITslum extends WP_Widget {
 	 */
 	function __construct() {
 		parent::__construct(
-			'foo_widget', // Base ID
+			'itsuniq_widget', // Base ID
 			__('Alexa Google PageRank', 'text_domain'), // Name
 			array( 'description' => __( 'Display Alexa and or Google Page Rank', 'text_domain' ), ) // Args
 		);
