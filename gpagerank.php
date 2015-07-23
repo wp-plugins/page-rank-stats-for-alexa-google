@@ -1,5 +1,4 @@
 <?php
-//Plugin By: itslum.com
 class PR {
 public function get_google_pagerank($url) {
 $url = urldecode($url);
@@ -72,4 +71,3 @@ return '7'.$CheckByte.$HashStr;
 }
 }
 ?>
-
